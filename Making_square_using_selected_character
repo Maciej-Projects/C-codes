@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    double x , y , i , j ;
+    string  z ;
+    
+    cout << "Enter the height of the square" << endl ;
+    cout << "height(x)= " ;
+    cin >> x ;
+    
+    cout << "Enter the width of the square" << endl ;
+    cout << "szerokosc(y)= " ;
+    cin >> y ;
+  
+    cout << "Give the character to draw the figure" << endl ;
+    cout << "character(i)= " ;
+    cin >> z ;
+    
+    for( i=0 ; i <= y; i++ ) {
+            for(j = 0; j <= x ; j++) {
+                cout << z << endl ;
+
+                }
+                cout << endl ;
+    }
+    return 0;
+}
